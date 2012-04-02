@@ -1,0 +1,37 @@
+<?php
+
+   define('INCLUDE_PATH', '/www/uis/include');
+   define('DATA_PATH', '/www/uis/data');
+   define('INCLUDE_FUNCTION', INCLUDE_PATH.'/funktionen');
+   define('INCLUDE_CONTENT', INCLUDE_PATH.'/inhalte');
+   define('INCLUDE_PATH_WWW', '/www/uis/www/include');
+   define('SITE', ''); //site url
+   define('IP', '');
+   define('REL_PATH', '/mosd');
+
+   define('IMAGE_PATH', 'http://www.example.com/mosd/img/'); //path to images
+
+   define('SITE_DEFAULT_TITLE', ''); //site title
+   define('SITE_DEFAULT_CSS', 'style');
+   define('SITE_DEFAULT_JS', 'funclib');
+
+   define('MYSQL_HOST', '');
+   define('MYSQL_USER', '');
+   define('MYSQL_PASSWORD', '');
+   define('MYSQL_DATABASE', '');
+
+   define('HOSTNAME', 'example.com'); 
+   define('HTTP_HOST', 'http://www.example.com/mosd');
+   define('HTTPS_HOST', 'https://www.example.com/mosd');
+
+   define('EMAIL_WEBMASTER', 'report@example.com');
+   define('EMAIL_WEBMASTER_NAME', 'webmaster');
+
+   define('EMAIL_AUTO_FROMADRESS', 'report@example.com');
+   define('EMAIL_AUTO_FROMUSER', 'automailer');
+
+   define('EMAIL_FROMADRESS', 'noreply@example.com');
+   define('EMAIL_FROMUSER', '');
+   define('EMAIL_RESPONDER', '');
+
+?>

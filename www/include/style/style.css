@@ -1,0 +1,1002 @@
+/* Standardformatierungen */
+
+img
+{
+   border: none;
+}
+
+img#ajaxload
+{
+   position: absolute;
+   bottom: -16px;
+   left: 0px;
+}
+
+br.clear
+{
+   clear: left;
+}
+
+.help
+{
+   cursor: help;
+}
+
+span.keyword
+{
+   color: #006120;
+}
+
+span.variable
+{
+   color: #100061;
+}
+
+body
+{
+   font-family: verdana,arial;
+   font-size: 12px;
+   margin: 0px;
+}
+
+a
+{
+   font-weight: bold;
+   text-decoration: none;
+   border-bottom: 1px #808080 solid;
+   color: #808080;
+}
+
+a:hover
+{
+   color: #0c3fd2;
+   border-bottom: none;
+   margin-bottom: 1px;
+}
+
+p.nonexist
+{
+   font-weight: bold;
+   text-align: center;
+   display: block !important;
+}
+
+img.editImage
+{
+   position: absolute;
+   right: 10px;
+   top: 5px;
+   cursor: pointer;
+}
+
+h3
+{
+   color: #808080;
+   border-bottom: 1px #808080 solid;
+   position: relative;
+   padding-bottom: 2px;
+}
+
+h3.margin
+{
+   margin: 10px 10px 0px 10px;
+   border: none;
+   cursor: pointer;
+   font-size: 12px;
+}
+
+h3.critical
+{
+   color: #960000;
+   border: none;
+}
+
+form
+{
+   display: inline;
+}
+
+fieldset
+{
+   border: none;
+   position: relative;
+   margin: 5px;
+}
+
+input.submit
+{
+   font-weight: bold !important;
+   color: #fff;
+   background: #808080;
+   height: 24px !important;
+   display: inline-block;
+   margin-left: 610px;
+   padding: 1px 5px 2px 5px !important;
+   border-color: #d3d3d3 !important;
+   border-bottom-width: 2px !important;
+   border-right-width: 2px !important;
+   cursor: pointer !important;
+}
+
+input.flush
+{
+   margin: 15px 0px 0px 15px;
+   color: #800000;
+   background: #dcaaaa;
+}
+
+fieldset label,
+fieldset input,
+fieldset textarea
+{
+   display: inline-block;
+   font-weight: bold;
+   height: 16px;
+   margin: 2px 0px;
+   padding: 1px 2px;
+   width: 150px;
+}
+
+fieldset input,
+fieldset textarea,
+fieldset select
+{
+   font-weight: normal;
+   border: 1px #808080 solid;
+}
+
+fieldset input[type="text"],
+fieldset textarea
+{
+   width: 200px;
+}
+
+fieldset textarea
+{
+   height: 48px;
+}
+
+fieldset input[type="radio"],
+fieldset input[type="checkbox"]
+{
+   width: auto;
+   margin-right: 10px;
+   display: inline;
+   vertical-align: middle;
+}
+
+fieldset p
+{
+   display: inline-block;
+   margin: 0px;
+}
+
+fieldset > div > span
+{
+   color: #0a003d;
+}
+
+fieldset div.edit
+{
+   display: inline-block;
+   width: 550px;
+   padding: 2px 50px 2px 5px;
+   position: relative;
+   line-height: 24px;
+}
+
+fieldset div.editable:hover
+{
+   background: #ededed;
+   border: 1px #808080 solid;
+   padding: 1px 49px 1px 4px;
+   cursor: pointer;
+}
+
+fieldset div.edit > img
+{
+   display: none;
+}
+
+fieldset div.edit:hover > img
+{
+   display: block;
+}
+
+fieldset div.var
+{
+   font-size: 10px;
+   display: block;
+   margin: 4px 0px;
+   background: #ededed;
+   border: 1px #808080 solid;
+   color: #000;
+   padding: 5px;
+}
+
+fieldset div.var textarea,
+fieldset div.var input.trans
+{
+   font-size: 10px;
+   background: transparent;
+   color: #000;
+   border: none;
+   font-family: verdana,arial;
+   width: 560px;
+   padding: 0px;
+}
+
+fieldset div.var textarea
+{
+   width: 620px;
+   height: 30px;
+}
+
+fieldset.hl
+{
+   border-left: 1px #ededed solid;
+   border-top: 1px #ededed solid;
+}
+
+fieldset.hl > legend
+{
+   color: #808080;
+   font-weight: bold;
+   font-size: 10px;
+}
+
+/* Meldungen */
+
+div#fehler,
+div#succeed
+{
+   font-weight: bold;
+   color: #f00;
+   margin: 10px auto;
+   text-align: center;
+}
+
+div#succeed
+{
+   color: #0ac800;
+}
+
+/* Loginbereich */
+
+div#login
+{
+   width: 680px;
+   margin: 50px auto 0px auto;
+   border: 3px #808080 solid;
+   padding: 10px;
+}
+
+div#login input
+{
+   width: 160px;
+}
+
+div#login label
+{
+   width: 100px;
+   padding-left: 20px;
+}
+
+div#loginlogo,
+div#loginlogosmall
+{
+   margin-top: 15px;
+   text-align: center;
+   font-size: 10px;
+}
+
+div#loginlogo > img
+{
+   margin-bottom: 5px;
+}
+
+div#loginlogosmall
+{
+   width: 190px;
+   position: absolute;
+   bottom: -205px;
+   left: -1px;
+   font-size: 9px;
+   text-align: justify;
+   font-weight: normal;
+   background: #ededed;
+   border: 1px #808080 solid;
+   padding: 5px;
+}
+
+div#loginlogosmall > span
+{
+   display: block;
+   text-align: center;
+}
+
+/* Menülayout */
+
+div#main,
+div#header
+{
+   width: 1000px;
+   margin: 0px auto;
+}
+
+div#header
+{
+   height: 40px;
+   padding: 10px 0px;
+   margin-bottom: 10px;
+   border: none;
+   position: relative;
+}
+
+div#header > span,
+div#header a
+{
+   position: absolute;
+   right: 0px;
+   top: 20px;
+   font-weight: bold;
+}
+
+div#header a
+{
+   top: 35px;
+   color: #f00;
+   border-color: #f00;
+}
+
+div#header > span em
+{
+   color: #100061;
+   font-style: normal;
+}
+
+div#menu
+{
+   width: 200px;
+   float: left;
+   font-weight: bold;
+   border: 1px #808080 solid;
+   position: relative;
+}
+
+div#menu > span
+{
+   color: #fff;
+   background: url('/mosd/img/headline.jpg') repeat-x;
+   display: block;
+   padding: 5px;
+   height: 16px;
+   line-height: 16px;
+}
+
+div#menu > span > a
+{
+   color: #fff;
+   border-bottom: none;
+   display: block;
+}
+
+div#menu > span > a:hover
+{
+   text-decoration: underline;
+}
+
+div#menu ul
+{
+   list-style: none;
+   padding: 0px;
+   margin: 0px;
+}
+
+div#menu ul li
+{
+   padding: 5px;
+   background: #ededed;
+   margin: 1px 0px;
+}
+
+div#menu ul li a
+{
+   display: block;
+   color: #808080;
+   font-weight: normal;
+   border: none;
+   margin-bottom: 1px;
+   text-indent: 10px;
+   background: url('/mosd/img/menu_li1.gif') left no-repeat;
+}
+
+div#menu ul li a:hover
+{
+   background-image: url('/mosd/img/menu_li2.gif');
+   color: #000;
+}
+
+div#menu ul li a.ok
+{
+   color: #008000;
+}
+
+div#menu ul li a.fehler
+{
+   color: #f00;
+}
+
+div#content
+{
+   width: 790px;
+   margin-left: 210px;
+   min-height: 500px;
+}
+
+/* Vorlagen */
+
+div.pvorlage1
+{
+   border: 1px #808080 solid;
+   position: relative;
+}
+
+div.pvorlage1 span.pheading
+{
+   color: #fff;
+   background: url('/mosd/img/headline.jpg') repeat-x;
+   display: block;
+   padding: 5px;
+   font-weight: bold;
+   height: 16px;
+   line-height: 16px;
+   position: relative;
+}
+
+div.pvorlage1 span.pheading > a
+{
+   position: absolute;
+   right: 5px;
+   top: 5px;
+   color: #fff;
+   border: none;
+   font-size: 10px;
+}
+
+div.pvorlage1 span.ug
+{
+   background: #0c45b8;
+}
+
+div.pvorlage1 table
+{
+   margin: 5px;
+}
+
+div.pvorlage1 table th
+{
+   text-align: left;
+   text-indent: 10px;
+   padding: 5px;
+}
+
+div.pvorlage1 table td
+{
+   padding: 5px;
+   border-top: 1px #ededed solid;
+}
+
+div.pvorlage1 table td.center
+{
+   text-align: center;
+}
+
+div.pvorlage1 table td.hl
+{
+   font-weight: bold;
+   color: #100061;
+}
+
+div.pvorlage1 div.account
+{
+   margin: 5px;
+}
+
+/* Individualseiten */
+
+p.filter
+{
+   margin: 10px 15px;
+   font-size: 10px;
+}
+
+span.handle
+{
+   display: block;
+   margin: 5px -5px -5px -5px;
+   padding: 4px 5px 1px 5px;
+   position: relative;
+}
+
+img.absdel
+{
+   position: absolute;
+   right: 0px;
+   top: 0px;
+   cursor: pointer;
+   z-index: 1;
+}
+
+img.line
+{
+   right: 5px;
+   top: 7px;
+}
+
+a.add
+{
+   color: #008000;
+}
+
+p.listing
+{
+   margin: 10px;
+   padding: 6px;
+   font-size: 10px;
+   position: relative;
+}
+
+p.listing + p
+{
+   border-top: 1px #d3d3d3 solid;
+}
+
+p.listing > a
+{
+   color: #0c3fd2;
+   font-weight: normal;
+}
+
+p.listing > a:hover
+{
+   color: #808080;
+}
+
+p.listing > span
+{
+   font-weight: bold;
+   color: #808080;
+   margin: 3px 0px;
+   display: block;
+   padding-bottom: 2px;
+}
+
+p.listing > strong
+{
+   color: #006120;
+}
+
+p.listing > span.warning
+{
+   color: #ffa700;
+}
+
+p.listing > span.fatal
+{
+   color: #f00;
+}
+
+p.seitenwechsel
+{
+   text-align: left;
+   font-weight: bold;
+   font-size: 10px;
+   padding-left: 15px;
+}
+
+p.seitenwechsel > a
+{
+   margin: 0px 2px;
+   border: none;
+}
+
+p.seitenwechsel > span
+{
+   color: #006120;
+}
+
+/* Layer */
+
+div#sclayerbg
+{
+   background: #00002c;
+   left: 0px;
+   top: 0px;
+   position: fixed;
+   width: 100%;
+   height: 100%;
+   z-index: 2;
+}
+
+div#sclayer
+{
+   position: absolute;
+   z-index: 3;
+   overflow: hidden;
+   background: #fff;
+   border: 2px #000 solid;
+}
+
+div#sclayer_init
+{
+   background: #fff;
+   padding: 5px;
+   border: 1px #4169e1 solid;
+   width: 66px;
+   height: 66px;
+}
+
+/* Conditions */
+
+div.rules
+{
+   padding: 0px 0px 25px 0px;
+   position: relative;
+   margin-bottom: 5px;
+}
+
+div.rules + div
+{
+   border-bottom: 1px #808080 solid;
+}
+
+div.rules > a
+{
+   position: absolute;
+   left: 0px;
+   bottom: 5px;
+   border: none;
+   font-size: 10px;
+}
+
+div.rules > a:hover
+{
+   margin-bottom: 0px;
+}
+
+div.rules > a > img
+{
+   display: inline;
+   vertical-align: middle;
+}
+
+div.condition
+{
+   display: inline-block;
+   border: 1px #808080 solid;
+   margin: 2px;
+   width: 185px;
+   position: relative;
+   overflow: visible;
+}
+
+div.condition span
+{
+   background: #808080;
+   color: #fff;
+   display: block;
+   padding: 3px;
+   cursor: pointer;
+}
+
+div.condition > img
+{
+   position: absolute;
+   right: -1px;
+   top: 3px;
+   z-index: 0;
+}
+
+div.condition ul
+{
+   position: absolute;
+   top: -1px;
+   left: 160px;
+   list-style: none;
+   margin: 0px;
+   padding: 0px;
+   display: none;
+   width: 160px;
+   background: #fff;
+   border: 1px #808080 solid;
+   color: #000;
+   z-index: 1;
+}
+
+div.condition > ul
+{
+   top: -1px;
+   left: -1px;
+}
+
+div.condition ul > li
+{
+   position: relative;
+   padding: 5px 3px;
+   cursor: default;
+}
+
+ul.select li:hover
+{
+   background: #100061;
+   color: #fff;
+}
+
+ul.select li:hover ul
+{
+   background: #d3d3d3;
+}
+
+ul.select li.choose
+{
+   cursor: pointer;
+}
+
+ul.select li:hover > ul
+{
+   display: block;
+}
+
+div.condition > p
+{
+   padding: 2px;
+}
+
+div.condition > p > input
+{
+   width: 65px;
+   margin-left: 5px;
+}
+
+div.operator
+{
+   display: inline-block;
+   width: 60px;
+   text-align: center;
+}
+
+div.message
+{
+   border-top: 1px #808080 solid;
+   margin: 5px 0px;
+   padding: 5px 0px;
+   position: relative;
+}
+
+div.message > textarea
+{
+   width: 550px;
+   height: 45px;
+   display: block;
+   float: left;
+}
+
+div.message > div
+{
+   display: block;
+   width: 210px;
+   margin-left: 560px;
+}
+
+div.message > img
+{
+   position: absolute;
+   top: -9px;
+   right: -3px;
+}
+
+div.avars
+{
+   position: absolute;
+   padding: 5px;
+   background: #fff;
+   border: 1px #000 solid;
+   font-size: 10px;
+   z-index: 3;
+}
+
+div.avars > span
+{
+   display: inline-block;
+   min-width: 200px;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+div.avars > span:hover
+{
+   color: #0c3fd2;
+}
+
+/* display conditions */
+
+div.description
+{
+   padding: 3px 0px;
+   margin: 0px 10px 0px 10px;
+   font-size: 10px;
+   text-indent: 10px;
+}
+
+div.showconditions
+{
+   margin: 0px 10px 5px 10px;
+   padding: 3px 10px;
+   border: 1px #808080 solid;
+}
+
+div.showconditions table
+{
+   padding: 5px;
+   margin: -3px -10px 15px -10px;
+   background: #ededed;
+}
+
+div.showconditions td
+{
+   border: none !important;
+}
+
+div.showconditions > div
+{
+   padding: 0px 5px 5px 5px;
+   border: 1px #d3d3d3 dotted;
+   margin: 2px 0px;
+   font-size: 11px;
+   line-height: 16px;
+}
+
+div.showconditions > div + div
+{
+   margin-top: 10px;
+}
+
+div.showconditions div.message2
+{
+   display: inline-block;
+   width: 500px;
+}
+
+div.showconditions div.accounts2
+{
+   display: inline-block;
+   width: 200px;
+   vertical-align: top;
+}
+
+div.showconditions p
+{
+   font-weight: bold;
+   margin: -10px 0px 3px 0px;
+}
+
+div.showconditions > div > div.accounts2 span
+{
+   display: block;
+   color: #100061;
+}
+
+/* value data */
+
+ul.choose > li
+{
+   padding: 5px;
+}
+
+/* dashboard */
+
+div#streams_header fieldset
+{
+   display: inline-block;
+   width: 367px;
+}
+
+div#streams_window > fieldset
+{
+   width: 233px;
+   display: inline-block;
+   font-size: 10px;
+   vertical-align: top;
+   position: relative;
+}
+
+div#streams_window > fieldset > legend
+{
+   max-width: 200px;
+   overflow: hidden;
+}
+
+div#streams_window > fieldset > img
+{
+   position: absolute;
+   top: -17px;
+   right: 0px;
+   cursor: pointer;
+}
+
+div#streams_window > fieldset label
+{
+   width: 80px;
+}
+
+div#streams_window > fieldset input,
+div#streams_window > fieldset select
+{
+   width: 143px;
+   font-size: 10px;
+}
+
+div.results
+{
+   font-size: 9px;
+}
+
+div.results > p
+{
+   margin: 6px 0px 0px 0px;
+   height: 65px;
+   width: 233px;
+   overflow: hidden;
+}
+
+div.results > p > a.user
+{
+   color: #100061;
+}
+
+div.results > p > a.keyword,
+div.results > p > a.touser,
+div.results > p > a.link
+{
+   color: #0c3fd2;
+   font-weight: normal;
+   border: none;
+}
+
+div.results > p > a.touser
+{
+   color: #100061;
+}
+
+div.results > p > a.link
+{
+   color: #808080;
+   text-decoration: underline;
+}
+
+div.results > p > a:hover
+{
+   text-decoration: none;
+   color: #808080;
+}
+
+div.results > p > img
+{
+   display: inline;
+   vertical-align: middle;
+   margin-right: 3px;
+}
+
+a.deleteaccount
+{
+   color: #f00;
+   border-color: #f00;
+   display: inline-block;
+   margin-top: 15px;
+}
+
+div.loginp input[type="text"]
+{
+   width: 300px;
+}
