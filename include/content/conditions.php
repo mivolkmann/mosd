@@ -1,3 +1,13 @@
+<?php
+/*
+This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with this file, You can obtain one at http://mozilla.org/MPL/2.0/.
+*/
+
+/**
+* @author Ronny Bansemer
+*/
+
+?>
 <div class="pvorlage1">
    <span class="pheading">Notification conditions <?php print $this->_getExists('editmode') ? '<a href="'.HTTP_HOST.'/conditions">→ switch to viewmode</a>' : '<a href="'.HTTP_HOST.'/conditions/editmode">→ switch to editmode</a>' ?></span>
 <?php

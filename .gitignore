@@ -1,2 +1,4 @@
 include/class/oauthlibrary/*
 include/constants.php
+
+*.swp

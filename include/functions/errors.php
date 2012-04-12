@@ -1,4 +1,11 @@
 <?php
+/*
+This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with this file, You can obtain one at http://mozilla.org/MPL/2.0/.
+*/
+
+/**
+* @author Ronny Bansemer
+*/
 
    $sw = new Seitenwechsel(HTTP_HOST.'/log/errors', '[?]', '<span>[?]</span>', $fehlerAnzahl, 15, $this->_getContentParam('site') != null ? $this->_getContentParam('site') : 0);
 

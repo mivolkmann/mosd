@@ -1,4 +1,12 @@
-<div id="login">
+<?php
+/*
+This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with this file, You can obtain one at http://mozilla.org/MPL/2.0/.
+*/
+
+/**
+* @author Ronny Bansemer
+*/
+?><div id="login">
    <img src="<?php print IMAGE_PATH ?>uis.jpg" alt="Logo"/>
    <p>
       You need to login to use all functions of our system.

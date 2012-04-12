@@ -1,4 +1,12 @@
-<div class="pvorlage1">
+<?php
+/*
+This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with this file, You can obtain one at http://mozilla.org/MPL/2.0/.
+*/
+
+/**
+* @author Ronny Bansemer
+*/
+?><div class="pvorlage1">
    <span class="pheading">Error log<?php print $sw->gs > 1 ? ' (entries '.$sw->von().' to '.$sw->bis().' of '.$sw->ge.')' : '' ?> <?php print DB::numRows() > 0 ? ($this->_getExists('editmode') ? '<a href="'.HTTP_HOST.'/log/errors/'.$sw->a_s.'">→ switch to viewmode</a>' : '<a href="'.HTTP_HOST.'/log/errors/'.$sw->a_s.'/editmode">→ switch to editmode</a>') : '' ?></span>
 <?php
 

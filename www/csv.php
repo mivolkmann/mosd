@@ -1,10 +1,17 @@
 <?php
+/*
+This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with this file, You can obtain one at http://mozilla.org/MPL/2.0/.
+*/
+
+/**
+* @author Ronny Bansemer
+*/
 
    session_start();
 
    if(!empty($_SESSION['unternehmenid']))
    {
-      require('/www/uis/include/constants.php');
+		require('../include/constants.php');
       require(INCLUDE_PATH.'/class/roh/mailer.php');
       require(INCLUDE_PATH.'/class/funclib.php');
       require(INCLUDE_PATH.'/class/email.php');
