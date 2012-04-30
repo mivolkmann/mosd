@@ -21,11 +21,11 @@ class DBConnection
 	* @param name identifier for the connection
 	*/
 	public static function getInstance($name) {
-		if (!array_key_exists($name, self::_connections))
+		if (!array_key_exists($name, self::$_connections))
 		{
-			self::_connections[$name] = new DCConnection();
+			self::$_connections[$name] = new DBConnection();
 		}
-		return self::_connections[$name];
+		return self::$_connections[$name];
 	}
 
 	/**
@@ -153,14 +153,14 @@ class DBConnection
 	* @param isFetched true = the row is the current row
 	* @return assoc array
 	*/
-	public static function resultRow($isFetched = false)
+	public function resultRow($isFetched = false)
 	{
 		if(!$isFetched)
 		{
-			self::nextResult();
+			$this->nextResult();
 		}
 
-		return self::$currentRow;
+		return $this->currentRow;
 	}
 
 	/**

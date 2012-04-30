@@ -7,17 +7,17 @@ This Source Code Form is subject to the terms of the Mozilla Public License, v. 
 * @author Ronny Bansemer
 */
 
-include ("./dbconnection.php");
+include ("dbconnection.php");
 
 
 class DB
 {
-	private static connection;
+	private static $connection;
 
 	public static function init($host, $user, $pw, $db)
 	{
-		self::$connection = DBConnection.getInstance("main");
-		if (!self::$connection.isOpen())
+		self::$connection = DBConnection::getInstance("main");
+		if (!self::$connection -> isOpen())
 		{
 			self::$connection->init($host, $user, $pw, $db);
 		}
@@ -30,7 +30,7 @@ class DB
 
 	public static function setParam($wert, $typ)
 	{
-		self::connection->setParam($wert, $typ);
+		self::$connection->setParam($wert, $typ);
 	}
 
 	public static function exec($returnId = false)
